@@ -21,7 +21,7 @@ A Flask-based REST API that provides CRUD (Create, Read, Update, Delete) operati
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/SalmanMuhammad/Flask_CRUD_LLM
    cd flask-crud-llm
    ```
 
