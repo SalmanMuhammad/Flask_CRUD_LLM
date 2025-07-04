@@ -1,0 +1,60 @@
+Overview:
+
+Welcome to the Python coding assessment. In this assessment, you will be tasked with implementing a ChatGPT Bot script that interacts with the OpenAI API. 
+
+Goal: 
+Your goal is to create a simple API with CRUD (Create, Read, Update, Delete) operations to manage the ChatGPT bot.
+
+Instructions:
+You may use any Python version you are comfortable with (Python 3.x is recommended).
+This project should be done with Flask
+You are free to use any libraries necessary, including OpenAI Python library (openai).
+Use informative variable and function names to enhance code readability.
+Ensure that your code is well-documented with appropriate comments.
+Keep the API design simple and easy to understand.
+You can use any data storage method you prefer for CRUD operations (e.g., in-memory data structures, file storage, etc.).
+
+
+Task Description: 
+Your task is to create a Python class for the ChatGPT Bot API with the following functionalities:
+
+
+initialize_gpt3() - This method should initialize the OpenAI API with the required credentials and settings.
+
+
+create_prompt(prompt) - This method should take a user-provided prompt as input and store it for later interactions with the ChatGPT bot.
+
+
+get_response(prompt_index) - This method should take the index of a previously stored prompt and return the ChatGPT bot's response to that prompt.
+
+
+update_prompt(prompt_index, new_prompt) - This method should update an existing prompt at the given index with a new prompt provided by the user.
+
+
+Please note that you should interact with the OpenAI API to generate responses to user prompts.
+
+
+
+
+After this you should create a file for CRUD operations which will be used to interact with the class above. This should contain the endpoints which will be called to interact with the Chatbot API. 
+
+
+Assessment Submission Guidelines:
+
+
+Implement the ChatGPTBotAPI class with all the specified methods.
+Test your implementation with various scenarios to ensure correctness and functionality.
+Provide a brief explanation of your code, including any assumptions made, and how you handled interactions with the OpenAI API.
+Upload the code as a github repo and share the url via email.
+Send your submission to the hiring team by the deadline provided.
+
+
+Good luck with the assessment! If you have any questions, feel free to ask for clarifications. Remember to follow best practices and keep the code clean and maintainable. 
+
+
+Happy coding!
+
+
+
+
+
